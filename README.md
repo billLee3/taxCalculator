@@ -1,4 +1,4 @@
-## CLI Tax Calculator
+## PyTax
 
 ### Description
 ---
