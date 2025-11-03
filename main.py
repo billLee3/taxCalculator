@@ -99,7 +99,7 @@ while game_over:
         statetaxcalc = taxcalc.StateTaxCalculator(filing_type=filing_type, total_income=total_income, state=state)
         #object method to get the state tax amount
         state_tax_amount = statetaxcalc.getStateTaxAmount()
-        format_state_amount = math.round(state_tax_amount, 3)
+        format_state_amount = round(state_tax_amount, 3)
         print(f"Your total state tax owed is ${format_state_amount}")
     #Logic for the total value owed in state taxes
     elif selection == "TOTALTAX":
