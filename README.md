@@ -1,5 +1,5 @@
 ## CLI Tax Calculator
----
+
 ### Description
 ---
 The purpose of this application was to better understand how the US tax brackets work.
