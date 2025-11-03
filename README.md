@@ -20,7 +20,19 @@ The app is all through the console. The only 2 state options available are "AL" 
 
 ### Usage
 ---
+The application will allow the user to start over using a while loop to continue inputing information. 
 
+The application will give you four options to choose from. 
+- FEDTAX - this will ask the user several questions (Q1, Q2, and Q4 below) and return the federal tax amount and marginal tax rate.
+- STATETAX - this will ask the user several questions (Q1, Q2, and Q3 below) and return the state tax amount owed.
+- TOTALTAX - this command will ask the user several questions (Q1, Q2, and Q3 below) and return the total tax amount summation of federal and state taxes.
+
+Questions:
+1.) Filing Type: Married filing jointly or single
+2.) Income Amount (Yearly)
+Gather the users total family income. If married filing jointly this will include their spouses income. If it is a non-numeric value the program will throw an error.
+3.) Please enter your state abbreviation. (Only working options are AL or TN)
+4.) Would you like to know your average tax rate?
 
 #### Lessons Learned
 ---
